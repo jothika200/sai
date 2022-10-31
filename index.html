@@ -1,93 +1,50 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css" />
-    
-    <title>dropdown Menu</title>
-  </head>
-  <body>
-    <div class="menu-bar">
-      <h1 class="logo">Light<span>Code...</span></h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        
-        <li><a href="#">About<i class="fas fa fa-caret-down"></i></a>
-           <div class="dropdown-menu">
-            <ul>
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Vission</a></li>
-            <li><a href="#">Team</a></li>
-            </ul>
-          </div>
-          </li>
-        <li><a href="#">service<i class="fas fa-caret-down"></i></a>
-
-            <div class="dropdown-menu">
-                <ul>
-                  <li><a href="#">Web Desining</a></li>
-                  <li><a href="#">Marketing<i class="fas fa-caret-right"></i></a>
-                  <div class="dropdown-menu-1">
-                    <ul>
-                      <li><a href="#">SEO</a></li>
-                      <li><a href="#">Social Media</a></li>
-                      <li><a href="#">Email Marketing</a></li>
-                    </ul>
-                  </div>
-                  
-                  </li>
-                  <li>
-                    <a href="#">Mobile App<i class="fas fa-caret-right"></i></a>
-                    
-                    <div class="dropdown-menu-1">
-                      <ul>
-                        <li><a href="#">Android App</a></li>
-                        <li><a href="#">iSO App</a></li>
-                        <li><a href="#">Flutter App</a></li>
-                        <li><a href="#">Unity APP</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </div>
-        </li>
-        <li><a href="#">Training<i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Machine Lerning</a></li>
-                    
-                    <li><a href="#">UI Desining</a></li>
-                    <li><a href="#">IEEE Project</a></li>
-                    <li><a href="#">App Develop</a></li>
-                    <li>
-                        <a href="#">Software Training<i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">java</a></li>
-                                <li><a href="#">Angular</a></li>
-                                <li><a href="#">Python</a></li>
-                                <li><a href="#">.Dot Net</a></li> 
-                                <li><a href="#">php</a></li> 
-                                <li><a href="#">java Script</a></li> 
-                                <li><a href="#">c#</a></li> 
-                                 
-                        </div>
-                    </li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <center>
+    <section>
+        <div class="form-container">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button"class="toggle-btn">Log In</button>
+                <button type="button"class="toggle-btn">Register</button> 
+            </div>
+            <div>
+                <div class="social-icons">
+                    <img src="D:\tw.png">
+                    <img src="D:\fb.png">
+                    <img src="D:\insta.png">
+            </div>
+            <h1>Login form</h1>
+            <form action="#">
+                <div class="control">
+                    <input type="text" name="name"placeholder="Enter Your Name">
+                </div>
+                <div class="control">
+                <input type="email" name="Email Id"placeholder="Email Id">
+            </div>
+            <div class="control">
+                <input type="text" name="Confirm password"placeholder="Confirm password">
+                <i class="fa-solid fa-eye-slash"></i>
         </div>
-        </li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
-    </div>
-
-    <div class="hero">
-      <h1>DREAM  INDIA  TECHNOLOGY</h1>
-      <h2>AN ISO 9001:2015 CERTIFIED INSTITUTE</h2>
-      <h3> Build A Career Build Your Life</h3>
-      <center><a href="#">Learn more</a></center>
-    </div>
-    
-  </body>
+            <span><input type="checkbox">Remember Me,</span>
+            <div class="control">
+                <input type="submit"value="Login">
+            </div>
+            </form>
+            
+            <div class="link">
+            <a href="#">Forget Password ?</a>
+            </div>
+        </div>
+    </section>
+    </center>
+</body>
 </html>
